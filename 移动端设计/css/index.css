@@ -1,0 +1,33 @@
+html{font-size: 50px;}
+html,body,.page{width: 100%;}
+
+
+div.header h3.h3{font-size: 0.42rem;text-align: center;line-height: 1rem;}
+div.page{margin:auto;}
+div.header1{position: relative;}
+div.header1 img{width: 100%;}
+div.header1 h2{font-size: 0.42rem;color: #333333;position: absolute;top: 30%;right: 5%;}
+div.header1 p{font-size: 0.24rem;color: #616161;position: absolute;top: 50%;right: 5%;}
+
+img{width: 100%;}
+div.header2{width: 90%;margin: auto;margin-top: 5%;position: relative;font-size: 0;}
+div.header2 div.img2{width:8%;top: -6%;position: absolute;right: -3%;}
+div.header2 div.img3{width: 69%;margin: 8% auto;}
+
+div.content{width: 90%;margin: auto;}
+div.content img{padding: 3% 0;}
+
+div.footer{width: 90%;margin: auto;display: flex;justify-content: space-around;align-content: center;padding: 5% 0;margin-bottom: 10%;}
+div.footer h3{font-size: 0.3rem;} 
+div.footer span{font-size: 0.25rem;color: #C0C0C0;}
+
+/* @media screen and (min-width:376px) and (max-width:400px){html{font-size: 70px;}}
+@media screen and (min-width:376px) and (max-width:475px){html{font-size: 70px;}}
+@media screen and (min-width:376px) and (max-width:475px){html{font-size: 70px;}}
+@media screen and (min-width:376px) and (max-width:475px){html{font-size: 70px;}}
+@media screen and (min-width:376px) and (max-width:475px){html{font-size: 70px;}}
+@media screen and (min-width:476px) and (max-width:575px){html{font-size: 90px;}}
+@media screen and (min-width:576px) and (max-width:675px){html{font-size: 110px;}}
+@media screen and (min-width:676px) and (max-width:775px){html{font-size: 130px;}}
+@media screen and (min-width:776px) and (max-width:875px){html{font-size: 150px;}}
+@media screen and (min-width:876px) and (max-width:975px){html{font-size: 170px;}} */

@@ -1,0 +1,25 @@
+html, body, .header,.footer{width: 100%;}
+html{font-size: 50px;}
+img{width: 100%;}
+
+
+.page{width: 90%;margin: auto;}
+.page .nav h3{font-size: 0.42rem;line-height: 1rem;text-align: center;}
+.page .nav a{font-size: 0.6rem;display: block;position: absolute;left: 0;top: 0;}
+.page .nav a:hover{color: red;}
+.page .nav{position: relative;}
+
+.header .img{width: 34%;margin: auto;font-size: 0;margin-top:5% ;position: relative;}
+.header p{line-height: 0.7rem;text-align: center;}
+.header .p1{font-size: 0.3rem;}
+.header .p2{font-size: 0.36rem;margin-bottom: 5%;}
+
+.content{border-radius: 5px;border: 1px solid #CCCCCC;display: flex;padding: 5%;justify-content: space-between;font-size: 0.28rem;line-height: 0.6rem;}
+.content .left{width: 30%;}
+.content .right{width: 40%;text-align: right;}
+.content .right .p1{color: #ADADAD;}
+
+.middle{color: #888;font-size: 0.20rem;display: flex;justify-content: space-between;padding: 2%;}
+.middle .right span{color: rgb(247,190,47);}
+
+.footer a{margin-top: 40%;line-height: 1rem;font-size: 0.3rem;text-align: center;border-radius: 5px;box-shadow: 0 0 2px transparent;display: block;width: 100%;color: #fff;background: rgb(9,187,7);}

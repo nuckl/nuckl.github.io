@@ -1,0 +1,21 @@
+html. body{width: 100%;}
+html{font-size: 50px;}
+
+img{width: 100%;}
+.page{width: 90%;margin: auto;}
+.page .nav a{font-size: 0.6rem;display: block;position: absolute;left: 0;top: 0;}
+.page .nav a:hover{color: red;}
+.page .nav{position: relative;}
+.page .nav h3{font-size: 0.42rem;text-align: center;line-height: 1rem;}
+
+.header{width: 100%;}
+.header .img{width: 80%;margin: auto;font-size: 0;margin-top: 5%;}
+.header p{font-size: 0.26rem;text-align: center;line-height: 1rem;}
+
+.content1 .abc{justify-content: space-between;display: flex;font-size: 0.24rem;line-height: 0.5rem;color: #616161;background: #EFEFEF;}
+ul li{display: flex;justify-content: inherit;line-height: 0.8rem;color: #333333;border-bottom: 1px solid #EEEEEE;}
+ul li p{font-size: 0.26rem;width: 40%;}
+
+.footer{margin-top: 10%;}
+.footer p{text-align: center;font-size: 0.2rem;color: rgb(135,135,135);}
+.footer a{margin-top: 2%;line-height: 0.8rem;font-size: 0.3rem;text-align: center;border-radius: 5px;box-shadow: 0 0 2px transparent;display: block;width: 100%;color: #fff;background: rgb(9,187,7);}

@@ -1,0 +1,44 @@
+html. body{width: 100%;}
+html{font-size: 50px;}
+
+img{width: 100%;}
+.header, .header1{width: 100%;}
+.page{width: 90%;margin: auto;}
+.page .nav a{font-size: 0.6rem;display: block;position: absolute;left: 0;top: 0;}
+.page .nav a:hover{color: red;}
+.page .nav{position: relative;}
+.page .nav h3{font-size: 0.42rem;text-align: center;line-height: 1rem;}
+.header1{line-height: 0.5rem;display: flex;justify-content: space-between;}
+.header1 .left{width: 80%;display: flex;font-size: 0.28rem;}
+.header1 .right{color: #A1A1A1;width: 15%;font-size: 0.24rem;}
+.header1 .left .img{width: 5%;margin: auto 5px;font-size: 0;line-height: 0;}
+
+.header .img1{width: 35%;margin: auto;margin-top: 5%;}
+.header .img2{width: 10%;margin: auto;}
+
+.content .top{display: flex;width: 100%;font-size: 0.28rem;}
+.content .top .img{width: 4%;font-size: 0;margin: auto 0; margin-right: 5px;}
+.content{width: 100%;margin-top: 3%;}
+.content1{margin: 3% 0;color: #888;display: flex;font-size: 0.24rem;justify-content: space-between;}
+.content ul{display: flex;flex-wrap: wrap;}
+.content ul li{box-shadow: 0 0 2px #CCCCCC;margin: 2% 0;width: 47%;border: 1px solid #CCCCCC;border-radius: 5px;}
+.content ul li.li{margin-left: 4%;}
+.content ul li .top{display: flex;padding: 5%;}
+.content ul li .top .left .p1{font-size: 0.3rem;}
+.content ul li .top .left .p2{font-size: 0.48rem;color: #333333;}
+.content ul li .top .left .p3{font-size: 0.2rem;color: #B0B0B0;}
+.content ul li .top .right{width: 20%;margin: auto;}
+
+.content ul li .bottom{border-top: 1px solid #CCCCCC;font-size: 0.6rem;width: 100%;text-align: center;color: rgb(105,190,73);}
+.page .footer p{text-align: center;color: rgb(135,135,135);font-size: 0.22rem;}
+
+.footer1{width: 100%;border-top: 1px solid #CCCCCC;margin-top: 5%;}
+.footer1 .content{width: 90%;margin: 4% auto;display: flex;justify-content: space-between;}
+.footer1 .content .left p:nth-child(1){font-size: 0.22rem;}
+.footer1 .content .left p:nth-child(2){font-size: 0.42rem;font-weight: 600;}
+.footer1 .content .right button{color: #fff;background: rgb(105,190,73);font-size: 0.3rem;border: none;width: 100%;height: 33px;border-radius: 5px;}
+.footer1 .content .left{text-align: center;}
+.footer1 .content .right{line-height: 0.3rem;width: 20%;}
+
+
+.tip{border-radius: 6px;display: none;top: 0;bottom: 0;left: 0;right: 0;margin: auto;position: fixed;width: 75%;height: 50%;background: #FFFFFF;}

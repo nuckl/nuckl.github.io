@@ -1,0 +1,43 @@
+*{margin:0px;padding:0px;}
+
+/*去除图片底部间隙*/
+img{vertical-align: middle;}
+li{list-style-type: none;}
+a{text-decoration: none;color: #333333;}
+
+
+/* 清除浮动 */
+.clearfix:after{overflow:hidden;clear:both;display:block;height:0;content:"\20"} /*"\20"它就是空格，*/
+.clearfix{*zoom:1;}
+.clear {clear:both;width:0;height:0;overflow:hidden;line-height:0;}
+.clearBoth{clear:both;}
+.fl {float:left;}
+.fr {float:right;}
+
+
+
+/* 文本框过多隐藏效果 */
+.ell{
+	/* 文本过多省略，文本少正常显示 */
+	border: 1px solid  red;
+	/* 规定是否换行 */
+	white-space: nowrap;
+	overflow: hidden;
+	/* 超出用省略号代替 */
+	text-overflow: ellipsis;
+}
+
+
+
+/* 利用定位实现居中效果；注意父元素要加相对定位	position: relative; */
+.centered{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+

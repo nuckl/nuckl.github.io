@@ -1,0 +1,30 @@
+html, body, .header,.footer{width: 100%;}
+html{font-size: 50px;}
+img{width: 100%;}
+
+
+.page{width: 90%;margin: auto;}
+.page .nav h3{font-size: 0.42rem;line-height: 1rem;text-align: center;}
+.page .nav a{font-size: 0.6rem;display: block;position: absolute;left: 0;top: 0;}
+.page .nav a:hover{color: red;}
+.page .nav{position: relative;}
+
+.header{opacity: 0.4;}
+.header .img{width: 34%;margin: auto;font-size: 0;margin-top:5% ;position: relative;}
+.header .img .img1{right: 0;left: 0;bottom: 0;top: 0;margin: auto;margin-bottom: 4%;position: absolute;width: 85%;height: 70%;border-radius: 50%;background: rgba(0,0,0,1);}
+.header .img .img1 img{margin: 40% 0;opacity: 1;}
+.header p{line-height: 0.7rem;text-align: center;}
+.header .p1{font-size: 0.3rem;}
+.header .p2{font-size: 0.36rem;margin-bottom: 5%;}
+
+.content{border-radius: 5px;border: 1px solid #CCCCCC;display: flex;padding: 5%;justify-content: space-between;font-size: 0.28rem;line-height: 0.6rem;}
+.content .left{width: 30%;}
+.content .right{width: 40%;text-align: right;}
+.content .right .p1{color: #ADADAD;}
+
+.middle{color: #888;font-size: 0.20rem;display: flex;justify-content: space-between;padding: 2%;}
+.middle .right span{color: rgb(247,190,47);}
+
+.footer{font-size: 0.26rem;color: rgb(100,100,100);margin: 5% auto;}
+.footer .footer-header{padding: 2%;;display: flex;justify-content: space-between;background: rgb(245,245,245);}
+.footer ul li{padding: 0 2%;;display: flex;justify-content: space-between;line-height: 0.9rem;}

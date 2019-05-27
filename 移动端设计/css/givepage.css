@@ -1,0 +1,24 @@
+html, body, .header,.footer{width: 100%;}
+html{font-size: 50px;}
+img{width: 100%;}
+
+
+.page{width: 90%;margin: auto;}
+.page .nav h3{font-size: 0.42rem;text-align: center;line-height: 1rem;}
+.page .nav a{font-size: 0.6rem;display: block;position: absolute;left: 0;top: 0;}
+.page .nav a:hover{color: red;}
+.page .nav{position: relative;}
+
+.header .img{width: 34%;margin: auto;font-size: 0;margin-top:5% ;position: relative;}
+.header .img .img1{right: 0;left: 0;bottom: 0;top: 0;margin: auto;margin-bottom: 4%;position: absolute;width: 85%;height: 70%;border-radius: 50%;background: rgba(0,0,0,0.4);}
+.header .img .img1 img{margin: 40% 0;}
+.header p{line-height: 0.7rem;text-align: center;}
+.header .p1{font-size: 0.3rem;}
+.header .p2{font-size: 0.36rem;margin-bottom: 5%;}
+
+.content{border-radius: 5px;justify-content: space-between;display: flex;color: #666;font-size: 0.3rem;line-height: 0.7rem;border: 1px solid #CCCCCC;padding: 5%;}
+.content .right{text-align: right;}
+
+.footer{margin-top: 5%;}
+.footer p{font-size: 0.25rem;color: rgb(87,107,149);}
+.footer a{line-height: 1rem;font-size: 0.3rem;text-align: center;border-radius: 5px;box-shadow: 0 0 2px transparent;display: block;width: 100%;color: #fff;background: rgb(9,187,7);}
