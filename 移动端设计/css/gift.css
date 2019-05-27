@@ -36,7 +36,7 @@ img{width: 100%;}
 .footer1 .content{width: 90%;margin: 4% auto;display: flex;justify-content: space-between;}
 .footer1 .content .left p:nth-child(1){font-size: 0.22rem;}
 .footer1 .content .left p:nth-child(2){font-size: 0.42rem;font-weight: 600;}
-.footer1 .content .right button{color: #fff;background: rgb(105,190,73);font-size: 0.3rem;border: none;width: 100%;height: 33px;border-radius: 5px;}
+.footer1 .content .right button{outline: none;color: #fff;background: rgb(105,190,73);font-size: 0.3rem;border: none;width: 100%;height: 33px;border-radius: 5px;}
 .footer1 .content .left{text-align: center;}
 .footer1 .content .right{line-height: 0.3rem;width: 20%;}
 
