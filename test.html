@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>晃动事件</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<!-- 手机晃动事件 需要硬件支持
+		 
+		 摇一摇功能：
+		 1.手机中的陀螺仪加速器，相邻两次加速器的距离差值，当达到某一值的时候，则认为是触发事件
+		 
+		 -->
+		 <script type="text/javascript">
+			 // 创建一个对象，存储此次晃动事件加速器的值，x,y,z轴的值
+		 	var node = {
+				x: 0,
+				y: 0,
+				z: 0
+			}
+			// 创建一个对象，存储上一次晃动事件加速器的值，
+			var lastNode = {
+				x: 0,
+				y: 0,
+				z: 0
+			}
+			
+			var minVal = 20;  //设置晃动事件达到的最小距离,达到该值才会触发
+			
+			//创建一个img节点,存储摇出的图片
+			var img = document.createElement("img");
+			img.style.width = "100%";
+			img.style.border = "3px solid red";
+			document.body.appendChild(img);
+			//创建p节点 ,存储当前的 xyz
+			var p1 = document.createElement("p");
+			p1.style.fontSize = "26px";
+			p1.style.marginTop = "100pox";
+			 document.body.appendChild(p1);
+			 
+			 //晃动时 触发的函数
+			 window.ondevicemotion = function(event){
+				 var acc = event.accelerationIncludingGravity;
+				 p1.innerHTML = "x:" + acc.x + " y:" + acc.y + " z:" + acc.z;
+			 }
+		 </script>
+		 
+		 
+	</body>
+</html>
