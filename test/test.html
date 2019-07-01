@@ -47,7 +47,7 @@
 				node.y = acc.y;
 				node.z = acc.z;
 
-				if (Math.abs(node.x - lastNode.x) >= minNum || Math.abs(node.y - lastNode.y) > minNum || Math.abs(node.z - lastNode.z) > minNum) {
+				if (Math.abs(node.x - lastNode.x) >= 10 || Math.abs(node.y - lastNode.y) > 10 || Math.abs(node.z - lastNode.z) > 10) {
 					alert("晃动事件");
 					img.src = "123.jpg";
 				}
