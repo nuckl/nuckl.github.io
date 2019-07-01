@@ -32,7 +32,7 @@
 	</head>
 	<body>
 		屏幕<p class="p1">竖屏</p>
-		角度<p class="p2"></p>
+		角度<p class="p2">0</p>
 		<div class="one">one</div>
 		<script type="text/javascript">
 			var one = document.querySelectorAll("div")[0];
@@ -47,6 +47,7 @@
 							p1.innerHTML = "竖屏";
 							p2.innerHTML = window.orientation;
 							one.className = "one";
+							one.innerHTML = "one";
 							break;
 						}
 					case 90:
@@ -54,6 +55,7 @@
 							p1.innerHTML = "左横屏";
 							p2.innerHTML = window.orientation;
 							one.className = "two";
+							one.innerHTML = "two";
 							break;
 						}
 					case -90:
@@ -61,6 +63,7 @@
 							p1.innerHTML = "右横屏";
 							p2.innerHTML = window.orientation;
 							one.className = "two";
+							one.innerHTML = "two";
 							break;
 						}
 
