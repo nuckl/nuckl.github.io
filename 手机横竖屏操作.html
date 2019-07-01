@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.one {
+				width: 200px;
+				height: 500px;
+				color: #fff;
+				font-size: 20px;
+				background: red;
+				margin: 10px auto;
+			}
+
+			.two {
+				width: 500px;
+				height: 200px;
+				color: #fff;
+				font-size: 20px;
+				background: yellow;
+				margin: 10px auto;
+
+			}
+
+			.p1 {
+				font-size: 30px;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		屏幕<p class="p1">竖屏</p>
+		角度<p class="p2"></p>
+		<div class="one">one</div>
+		<script type="text/javascript">
+			var one = document.querySelectorAll("div")[0];
+			var p1 = document.querySelectorAll(".p1")[0];
+			var p2 = document.querySelectorAll(".p2")[0];
+			// 触发时机:角度的改变,就会触发;该事件需要硬件支持,即打开横竖屏的状态,其次,手机自带陀螺仪;
+			window.onorientationchange = function() {
+				p2.innerHTML = window.orientation; //角度
+				switch (window.orientation) {
+					case 0:
+						{
+							p1.innerHTML = "竖屏";
+							p2.innerHTML = window.orientation;
+							one.className = "one";
+							break;
+						},
+					case 90:
+						{
+							p1.innerHTML = "左横屏";
+							p2.innerHTML = window.orientation;
+							one.className = "two";
+							break;
+						}
+					case 90:
+						{
+							p1.innerHTML = "右横屏";
+							p2.innerHTML = window.orientation;
+							one.className = "two";
+							break;
+						}
+
+					default:
+						break;
+				}
+			}
+		</script>
+	</body>
+</html>
