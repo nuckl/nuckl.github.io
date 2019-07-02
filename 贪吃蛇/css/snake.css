@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	border-collapse: collapse;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+td{
+	border-color: #000000;
+}
+
+.color{
+	background: #000;
+}
+
+.food{
+	background: yellow;
+}
+
+div{
+	margin: auto;
+	border: 3px solid red;
+}
