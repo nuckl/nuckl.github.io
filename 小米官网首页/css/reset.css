@@ -1,0 +1,72 @@
+html,body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,em,textarea,p,th,td{margin:0px;padding:0px;}
+/*
+去除图片底部间隙
+*/
+img{vertical-align: middle;}
+
+li{list-style-type: none;}
+
+a{color: #333333;text-decoration: none;}
+
+
+.clearfix:after{overflow:hidden;clear:both;display:block;height:0;content:"\20"} 
+/*它就是空格，*/
+.clearfix{*zoom:1;}
+.clear {clear:both;width:0;height:0;overflow:hidden;line-height:0;}
+.clearBoth{clear:both;}
+.fl {float:left;}
+.fr {float:right;}
+
+
+body{
+	font: 12px/1.5 '微软雅黑', '宋体', STHeiTi,Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.ell{
+	/* 文本过多省略，文本少正常显示 */
+	border: 1px solid  red;
+	/* 规定是否换行 */
+	white-space: nowrap;
+	overflow: hidden;
+	/* 超出用省略号代替 */
+	text-overflow: ellipsis;
+}
+
+.button {
+	height: 43px;
+	width: 127px;
+	border-radius: 3px;
+	line-height: 43px;
+	background-color: #22a6d2;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	/* outline: none; */
+	border: #22a6d2 solid 1px;
+}
+
+.input {
+	width: 250px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #c8c8c8;
+	color: #666;
+	padding-left: 8px;
+	padding-right: 18px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+			/* 找到聚焦状态的input */
+.input:focus {
+	border: 1px solid #6b9bdc;
+	box-shadow: 0 0 3px #6b9bdc inset;
+}
+
+.bodyfont{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}

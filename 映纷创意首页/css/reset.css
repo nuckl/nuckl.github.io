@@ -1,0 +1,93 @@
+html,body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,em,textarea,p,th,td{margin:0px;padding:0px;}
+/*
+去除图片底部间隙
+*/
+img{vertical-align: middle;}
+
+li{list-style-type: none;}
+
+a{text-decoration: none;}
+
+
+.clearfix:after{overflow:hidden;clear:both;display:block;height:0;content:"\20"} 
+/*它就是空格，*/
+.clearfix{*zoom:1;}
+.clear {clear:both;width:0;height:0;overflow:hidden;line-height:0;}
+.clearBoth{clear:both;}
+.fl {float:left;}
+.fr {float:right;}
+
+
+body{
+	font: 14px/1.5 '微软雅黑', '宋体', STHeiTi,Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.ell{
+	/* 文本过多省略，文本少正常显示 */
+	border: 1px solid  red;
+	/* 规定是否换行 */
+	white-space: nowrap;
+	overflow: hidden;
+	/* 超出用省略号代替 */
+	text-overflow: ellipsis;
+}
+
+.button {
+	height: 43px;
+	width: 127px;
+	border-radius: 3px;
+	line-height: 43px;
+	background-color: #22a6d2;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	/* outline: none; */
+	border: #22a6d2 solid 1px;
+}
+
+.input {
+	width: 250px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #c8c8c8;
+	color: #666;
+	padding-left: 8px;
+	padding-right: 18px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+			/* 找到聚焦状态的input */
+.input:focus {
+	border: 1px solid #6b9bdc;
+	box-shadow: 0 0 3px #6b9bdc inset;
+}
+
+.bodyfont{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+header,section,footer,aside,nav,main,article,figure {display: block;}
+
+/* <!-- 针对IE浏览器html5shiv 是比较好的解决方案。html5shiv主要解决HTML5提出的新的元素不被IE6-8识别，这些新元素不能作为父节点包裹子元素，并且不能应用CSS样式 -->
+<!--[if lt IE 9]>
+<script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]--> */
+

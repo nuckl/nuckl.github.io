@@ -1,0 +1,33 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html,body,.body,.title{width: 100%;}
+
+
+.body .title img{width: 10%;min-width: 4rem;margin: 0 45%;}
+.body .title a{font-size: 1rem;color: #ADADAD;}
+.body .title{background-color: rgba(0,0,0,0.7);text-align: center;}
+.body .title li{float: left;width: 15%;min-width: 64px;}
+.body .title ul{margin: 0 32%;width: 60%;}
+.body .title{position: fixed;top: 0;}
+
+
+.content img{width: 100%;margin: 5% auto;}
+.content{width: 90%;margin: 0 auto;font-size: 1rem;color: #ADADAD;}
+
+.content1{width: 100%;}
+.content ul{width: 100%;}
+.content ul li{text-align: center;width: 31%;float: left;margin: 1% 1%;box-shadow: 0px 0px 10px #CCCCCC;}
+
+@media screen and (max-width: 900px) {.content ul li{width: 45%;}}
+@media screen and (max-width: 500px) {.content ul li{width: 100%;}}

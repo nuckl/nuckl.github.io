@@ -1,0 +1,12 @@
+#box li{width: 70px;height: 70px;background: #FFFFFF;border:1px solid #efefef;text-align: center;color: #757575;position: relative;}
+#box li div{width: 30px;height: 30px;margin: 15px auto 5px;}
+#box li img{width: 30px;}
+#box li:hover p{color: #FF6700;}
+#box li:hover .div{display: block;}
+#box li:hover #erweima{display: block;}
+#box li .div{position: absolute;top: 0;left: 20px;display: none;}
+#box{position: fixed;z-index: 6;right: 0;top: 200px;}
+#box .li6{margin-top: 20px;}
+#box #erweima{display: none;margin: 0;padding: 0;width: 100px;height: 145px;position: absolute;top: 0;border: 1px solid #efefef;right: 76px;background: #FFFFFF;}
+#box #erweima img{width: 80px;margin: 10px;}
+#box #erweima p{color: #757575;}
