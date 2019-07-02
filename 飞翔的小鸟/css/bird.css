@@ -1,0 +1,185 @@
+/* 容器 */
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrap {
+	width: 343px;
+	height: 480px;
+	background: url(../img/bg.jpg) no-repeat;
+	position: relative;
+	margin:auto;
+	overflow: hidden;
+}
+
+img {
+	vertical-align: middle;
+}
+
+/* 草坪 */
+.grass {
+	width: 686px;
+	position: absolute;
+	left: 0;
+	bottom: 43px;
+}
+
+.grass img {
+	float: left;
+}
+
+.grass:after {
+	content: "";
+	display: block;
+	overflow: hidden;
+	height: 0;
+	clear: both;
+}
+
+/* 小鸟 */
+.wrap>.bird {
+	width: 40px;
+	height: 26px;
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	display: none;
+}
+
+
+/* 菜单 */
+.menu{
+	width: 236px;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+
+.menu>.head{
+	position: relative;
+}
+
+.menu>.head>.bird{
+	position: absolute;
+	right: 0;
+	top: 40%;
+	animation: move 1.5s linear infinite;
+}
+
+@keyframes move{
+	0%{top: 40%}
+	25%{top: 0%}
+	50%{top: 40%}
+	75%{top: 60%}
+	100%{top: 40%}
+}
+
+/* 开始菜单 */
+.menu>.gameStar{
+	position: absolute;
+	left: 25%;
+	top: 130%;
+}
+
+
+/* 管道 */
+.pipes{
+	position: absolute;
+	list-style: none;
+	left: 343px;
+	width: 62px;
+	height: 423px;
+}
+
+.pipe{
+	position: absolute;
+	width: 62px;
+	height: 423px;
+}
+
+.up_pipe{
+	width: 62px;
+	background: url(../img/up_pipe.png) no-repeat bottom,url(../img/up_mod.png);
+}
+
+.down_pipe{
+    position: absolute;
+    bottom: 0;
+	left: 0;
+	width: 62px;
+	background: url(../img/down_pipe.png) no-repeat,url(../img/down_mod.png);
+}
+
+/* 分数 */
+.message{
+	background: url(../img/message.jpg) no-repeat;
+	position: absolute;
+	width: 269px;
+	height: 135px;
+	top: 35%;
+	left: 11%;
+	display: none;
+}
+
+.message>p{
+	text-align: center;
+	position: absolute;
+	color: #FF6700;
+	left: 213px;
+	font-weight: 600;
+}
+
+.message>.score{
+	top: 40px;
+}
+
+.message>.best{
+	top: 90px;
+}
+
+.message>.gameOver{
+	position: absolute;
+	background: url(../img/game_over.jpg) no-repeat;
+	width: 221px;
+	height: 40px;
+	top: -50%;
+	left: 10%;
+}
+
+.wrap>.score{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 36%;
+}
+
+.wrap>.score>img{
+	float: left;
+	width: 28px;
+	height: 39px;
+	visibility: hidden;
+}
+
+.wrap>.score:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.reStart{
+	position: absolute;
+	background: orange;
+	font-size: 18px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	top: 52px;
+	left: 33px;
+	box-shadow: 0 0 10px #FF6700;
+	text-shadow: 0 0 2px;
+	color: #FFF;
+	line-height: 50px;
+}

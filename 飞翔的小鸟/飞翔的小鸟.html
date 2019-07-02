@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bird.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<audio src="musics/bullet.mp3" class="musicClick" ></audio>
+		<audio src="musics/game_music.mp3" class="musicBg" ></audio>
+		<audio src="musics/game_over.mp3" class="musicOver" ></audio>
+		<div class="wrap">
+			<!-- 本次游戏成绩 -->
+			<div class="score">
+				<img src="" >
+				<img src="" >
+				<img src="img/0.jpg" >
+			</div>
+			<!-- 小鸟 -->
+			<div class="bird">
+				<img src="img/bird.png" >
+			</div>
+			
+			<!-- 草坪 -->
+			<div class="grass">
+				<img src="img/banner.jpg" >
+			</div>
+			
+			<!-- 开始菜单 -->
+			<div class="menu">
+				<div class="head">
+					<img src="img/head.jpg" >
+					<img src="img/bird.png" class="bird">
+				</div>
+				<div class="gameStar">
+					<img src="img/start.jpg" >
+				</div>
+			</div>
+			<!-- 管道 -->
+			<ul class="pipes">
+				<!-- <li class="pipe">
+					<div class="up_pipe"></div>
+					<div class="down_pipe"></div>
+				</li> -->
+			</ul>
+			<!-- 游戏结束成绩信息 -->
+			<div class="message">
+				<p class="score">0</p>
+				<p class="best">0</p>
+				<div class="gameOver"></div>
+				<div class="reStart">Good!</div>
+			</div>
+		</div>
+		<script src="js/bird.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

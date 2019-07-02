@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.progress {
+	width: 180px;
+	height: 16px;
+	border-radius: 10px;
+	background: #FF6700;
+	position: absolute;
+	top: 66.4px;
+	left: 63px;
+}
+
+.content {
+	background-image: url(../img/game_bg.jpg);
+	width: 320px;
+	height: 480px;
+	position: relative;
+	margin: 50px auto;
+}
+
+.scro {
+	z-index: 100;
+	position: absolute;
+	color: #ff6700;
+	font-size: 20px;
+	top: 10px;
+	left: 65px;
+	font-weight: bold;
+}
+
+.gameOver, .menu{
+	font-size: 50px;
+	color: #ff6700;
+	text-shadow: 1px 1px 10px;
+	position: absolute;
+	font-weight: bold;
+	top: 240px;
+	left: 60px;
+	cursor: pointer;
+}
+
+.menu:hover {
+	color: yellow;
+}
+
+.gameOver{
+	display: none;
+}
+
+.content img{
+	position: absolute;
+}
+
+
